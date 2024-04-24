@@ -1,0 +1,81 @@
+body{
+    background-color: #151d27;
+}
+
+header h1,
+section h2,
+footer {
+    color: #ffffffa6;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    background-color: #263241;
+    border-bottom: 2px solid #151d27;
+}
+
+.dropdown-menu[data-bs-popper] {
+    left: -50%;
+}
+
+.nav-link {
+    text-align: center;
+}
+
+section h2 {
+    margin-top: 1rem;
+}
+
+.carousel-caption {
+    border-radius: 2em;
+    background-color: rgba(0, 0, 0, 0.5);
+    left: 35%;
+    right: 35%;
+}
+
+section {
+    text-align: center;
+}
+
+.carousel-caption .btn {
+    background-color: rgba(25, 135, 84, 0.9);
+}
+
+.card {
+    border-radius: 5px;
+    background: #263241;
+}
+
+.row> .col-sm-12 {
+    padding: 1.5em 1.5em;
+}
+
+@media screen and (max-width: 1085px){
+
+    .carousel-indicators{
+        top: 80%;
+        left: -40%;
+        width: 90%;
+    }
+
+    .carousel-caption h5,
+    .carousel-caption h6 {
+        display: none;
+    }
+
+    .carousel-caption {
+        background-color: rgba(0, 0, 0, 0);
+        bottom: 2%;
+        right: 40%;
+        width: 70%;
+        padding-top: 0.75rem;
+        padding-bottom: 0.75rem;
+    }
+
+    .btn-group {
+        flex-direction: column;
+    }
+}
